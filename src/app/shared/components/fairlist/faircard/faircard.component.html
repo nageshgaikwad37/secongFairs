@@ -1,0 +1,16 @@
+<div class="card fairc mb-2" (click)="onclick()">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm-3">
+               <img src="../../../../../assets/images/issschool.png" alt="">
+            </div>
+            <div class="col-sm-9">
+                <h5 class="card-title">{{obj.fairName}}</h5>
+                <h6 class="card-subtitle text-muted" > <i class="fa-solid fa-calendar-days"></i> <strong>{{obj.startDate | date}} - {{obj.endDate | date}}</strong></h6>
+                <a href="#" class="card-link">Add to Calender</a>
+                <p class="card-text"><i class="fa-solid fa-location-dot"></i> {{obj.type}}</p>
+                <p><i class="fa-solid fa-school"></i> {{obj.numberOfSchoolsRegistered}} Registered</p>
+            </div>
+        </div>
+    </div>
+</div>

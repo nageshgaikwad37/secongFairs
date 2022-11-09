@@ -1,0 +1,6 @@
+<div class="fairimage">
+    <img [src]="selectedObj.bannerUrl" *ngIf="selectedObj.bannerUrl; else selectedImage" alt="logo">
+    <ng-template #selectedImage>
+        <img src="https://images.unsplash.com/photo-1665493182364-aa6696973727?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=973&q=80" alt="">
+    </ng-template>
+</div>
