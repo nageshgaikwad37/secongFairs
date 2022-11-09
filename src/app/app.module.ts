@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FairlistComponent } from './shared/components/fairlist/fairlist.component';
 import { FaircardComponent } from './shared/components/fairlist/faircard/faircard.component';
 import { FairdetailsComponent } from './shared/components/fairdetails/fairdetails.component';
+import { GitlearningComponent } from './shared/components/gitlearning/gitlearning.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FairlistComponent,
     FaircardComponent,
-    FairdetailsComponent
+    FairdetailsComponent,
+    GitlearningComponent
   ],
   imports: [
     BrowserModule,
